@@ -3,15 +3,9 @@
 
 
 {% block body %}
+<body id="page-top">
     {% include '/layouts/site/head.html.twig' %}
     {% include '/layouts/site/header.html.twig' %}
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                Buna
-            </div>
-        </div>
-    </div>
+    {% include '/layouts/site/content.html.twig' %}
     {% include '/layouts/site/footer.html.twig' %}
 {% endblock body %}
