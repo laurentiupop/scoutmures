@@ -1,0 +1,22 @@
+body{
+    background: blue;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #dadada;
+    border-left: 0;
+    border-right: 0;
+}
+
+.toggleClass-privat{
+    background: #212529;
+    color: wheat;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
